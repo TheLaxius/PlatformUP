@@ -8,16 +8,16 @@ public class RuchPostaci : MonoBehaviour
     public Rigidbody2D rb;
 
     public Animator animator;
-    public Animator animator2;
 
     public float jumpforce = 20f;
     float mx;
+    float mx2;
 
     private void Update()
     {
         mx = Input.GetAxisRaw("Horizontal");
-
-        animator.SetFloat("Speed", mx);
+        mx2 = Mathf.Abs(mx);
+        animator.SetFloat("Speed", mx2);
 
         if (mx>0)
         {
