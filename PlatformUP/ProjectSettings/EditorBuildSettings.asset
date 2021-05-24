@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Koniec.unity
+    guid: 4d253ff0aa1a27e44908ca4b66b6b4c2
   m_configObjects: {}
