@@ -60,11 +60,12 @@
     <Compile Include="Assets\Score.cs" />
     <Compile Include="Assets\RuchPostaci.cs" />
     <Compile Include="Assets\Individual Sprites\Patrolowanie.cs" />
-    <Compile Include="Assets\SceneChange.cs" />
     <Compile Include="Assets\Teleport.cs" />
+    <Compile Include="Assets\SceneChange.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\PixelTreeSet\License.txt" />
+     <None Include="Assets\BackGroundAssets\Read me.txt" />
      <None Include="Assets\PixelTreeSet\Readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Uni\2020.3.3f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
